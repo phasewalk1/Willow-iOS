@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0045D12A401B16008A4C5E /* ClientForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0045D02A401B16008A4C5E /* ClientForm.swift */; };
+		FE0045D32A401BE5008A4C5E /* ClientDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0045D22A401BE5008A4C5E /* ClientDeck.swift */; };
+		FE3F2CFF2A3E69AF001753C6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F2CFE2A3E69AF001753C6 /* Event.swift */; };
+		FE3F2D032A3E6A76001753C6 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F2D022A3E6A76001753C6 /* FormField.swift */; };
+		FE3F2D052A3E70D2001753C6 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F2D042A3E70D2001753C6 /* EventView.swift */; };
+		FE741ADA2A3DBC96002BB186 /* willow2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741AD92A3DBC96002BB186 /* willow2App.swift */; };
+		FE741ADC2A3DBC96002BB186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741ADB2A3DBC96002BB186 /* ContentView.swift */; };
+		FE741ADE2A3DBC97002BB186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE741ADD2A3DBC97002BB186 /* Assets.xcassets */; };
+		FE741AE22A3DBC97002BB186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE741AE12A3DBC97002BB186 /* Preview Assets.xcassets */; };
+		FE741AEC2A3DBC98002BB186 /* willow2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741AEB2A3DBC98002BB186 /* willow2Tests.swift */; };
+		FE741AF62A3DBC98002BB186 /* willow2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741AF52A3DBC98002BB186 /* willow2UITests.swift */; };
+		FE741AF82A3DBC98002BB186 /* willow2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741AF72A3DBC98002BB186 /* willow2UITestsLaunchTests.swift */; };
+		FE741B062A3DCFD3002BB186 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741B052A3DCFD3002BB186 /* Client.swift */; };
+		FE741B092A3DD000002BB186 /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741B082A3DD000002BB186 /* ClientView.swift */; };
+		FE741B0B2A3DD01D002BB186 /* ClientMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741B0A2A3DD01D002BB186 /* ClientMeta.swift */; };
+		FE741B0D2A3DD046002BB186 /* EventForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741B0C2A3DD046002BB186 /* EventForm.swift */; };
+		FE8949C12A4139D000E308DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FE8949C02A4139D000E308DE /* .gitignore */; };
+		FE8949C32A41456800E308DE /* Seedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8949C22A41456800E308DE /* Seedable.swift */; };
+		FEC266AE2A4162020008DB10 /* NetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC266AD2A4162020008DB10 /* NetsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE741AE82A3DBC98002BB186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE741ACE2A3DBC96002BB186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE741AD52A3DBC96002BB186;
+			remoteInfo = willow2;
+		};
+		FE741AF22A3DBC98002BB186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE741ACE2A3DBC96002BB186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE741AD52A3DBC96002BB186;
+			remoteInfo = willow2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0045D02A401B16008A4C5E /* ClientForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientForm.swift; sourceTree = "<group>"; };
+		FE0045D22A401BE5008A4C5E /* ClientDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDeck.swift; sourceTree = "<group>"; };
+		FE3F2CFE2A3E69AF001753C6 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FE3F2D022A3E6A76001753C6 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		FE3F2D042A3E70D2001753C6 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		FE741AD62A3DBC96002BB186 /* willow2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = willow2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE741AD92A3DBC96002BB186 /* willow2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willow2App.swift; sourceTree = "<group>"; };
+		FE741ADB2A3DBC96002BB186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE741ADD2A3DBC97002BB186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE741ADF2A3DBC97002BB186 /* willow2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = willow2.entitlements; sourceTree = "<group>"; };
+		FE741AE12A3DBC97002BB186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE741AE72A3DBC98002BB186 /* willow2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = willow2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE741AEB2A3DBC98002BB186 /* willow2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willow2Tests.swift; sourceTree = "<group>"; };
+		FE741AF12A3DBC98002BB186 /* willow2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = willow2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE741AF52A3DBC98002BB186 /* willow2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willow2UITests.swift; sourceTree = "<group>"; };
+		FE741AF72A3DBC98002BB186 /* willow2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willow2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE741B052A3DCFD3002BB186 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		FE741B082A3DD000002BB186 /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
+		FE741B0A2A3DD01D002BB186 /* ClientMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMeta.swift; sourceTree = "<group>"; };
+		FE741B0C2A3DD046002BB186 /* EventForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventForm.swift; sourceTree = "<group>"; };
+		FE8949C02A4139D000E308DE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FE8949C22A41456800E308DE /* Seedable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seedable.swift; sourceTree = "<group>"; };
+		FEC266AD2A4162020008DB10 /* NetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE741AD32A3DBC96002BB186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AE42A3DBC98002BB186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AEE2A3DBC98002BB186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE741ACD2A3DBC96002BB186 = {
+			isa = PBXGroup;
+			children = (
+				FE8949C02A4139D000E308DE /* .gitignore */,
+				FE741AD82A3DBC96002BB186 /* willow2 */,
+				FE741AEA2A3DBC98002BB186 /* willow2Tests */,
+				FE741AF42A3DBC98002BB186 /* willow2UITests */,
+				FE741AD72A3DBC96002BB186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE741AD72A3DBC96002BB186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE741AD62A3DBC96002BB186 /* willow2.app */,
+				FE741AE72A3DBC98002BB186 /* willow2Tests.xctest */,
+				FE741AF12A3DBC98002BB186 /* willow2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE741AD82A3DBC96002BB186 /* willow2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE741B072A3DCFF7002BB186 /* Views */,
+				FE741B042A3DCFC0002BB186 /* Models */,
+				FE741AD92A3DBC96002BB186 /* willow2App.swift */,
+				FE741ADB2A3DBC96002BB186 /* ContentView.swift */,
+				FE741ADD2A3DBC97002BB186 /* Assets.xcassets */,
+				FE741ADF2A3DBC97002BB186 /* willow2.entitlements */,
+				FE741AE02A3DBC97002BB186 /* Preview Content */,
+			);
+			path = willow2;
+			sourceTree = "<group>";
+		};
+		FE741AE02A3DBC97002BB186 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE741AE12A3DBC97002BB186 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE741AEA2A3DBC98002BB186 /* willow2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE741AEB2A3DBC98002BB186 /* willow2Tests.swift */,
+			);
+			path = willow2Tests;
+			sourceTree = "<group>";
+		};
+		FE741AF42A3DBC98002BB186 /* willow2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE741AF52A3DBC98002BB186 /* willow2UITests.swift */,
+				FE741AF72A3DBC98002BB186 /* willow2UITestsLaunchTests.swift */,
+			);
+			path = willow2UITests;
+			sourceTree = "<group>";
+		};
+		FE741B042A3DCFC0002BB186 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE741B052A3DCFD3002BB186 /* Client.swift */,
+				FE3F2CFE2A3E69AF001753C6 /* Event.swift */,
+				FE8949C22A41456800E308DE /* Seedable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE741B072A3DCFF7002BB186 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE741B082A3DD000002BB186 /* ClientView.swift */,
+				FE741B0A2A3DD01D002BB186 /* ClientMeta.swift */,
+				FE741B0C2A3DD046002BB186 /* EventForm.swift */,
+				FE3F2D022A3E6A76001753C6 /* FormField.swift */,
+				FE3F2D042A3E70D2001753C6 /* EventView.swift */,
+				FE0045D02A401B16008A4C5E /* ClientForm.swift */,
+				FE0045D22A401BE5008A4C5E /* ClientDeck.swift */,
+				FEC266AD2A4162020008DB10 /* NetsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE741AD52A3DBC96002BB186 /* willow2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE741AFB2A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2" */;
+			buildPhases = (
+				FE741AD22A3DBC96002BB186 /* Sources */,
+				FE741AD32A3DBC96002BB186 /* Frameworks */,
+				FE741AD42A3DBC96002BB186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = willow2;
+			productName = willow2;
+			productReference = FE741AD62A3DBC96002BB186 /* willow2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE741AE62A3DBC98002BB186 /* willow2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE741AFE2A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2Tests" */;
+			buildPhases = (
+				FE741AE32A3DBC98002BB186 /* Sources */,
+				FE741AE42A3DBC98002BB186 /* Frameworks */,
+				FE741AE52A3DBC98002BB186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE741AE92A3DBC98002BB186 /* PBXTargetDependency */,
+			);
+			name = willow2Tests;
+			productName = willow2Tests;
+			productReference = FE741AE72A3DBC98002BB186 /* willow2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE741AF02A3DBC98002BB186 /* willow2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE741B012A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2UITests" */;
+			buildPhases = (
+				FE741AED2A3DBC98002BB186 /* Sources */,
+				FE741AEE2A3DBC98002BB186 /* Frameworks */,
+				FE741AEF2A3DBC98002BB186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE741AF32A3DBC98002BB186 /* PBXTargetDependency */,
+			);
+			name = willow2UITests;
+			productName = willow2UITests;
+			productReference = FE741AF12A3DBC98002BB186 /* willow2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE741ACE2A3DBC96002BB186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FE741AD52A3DBC96002BB186 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FE741AE62A3DBC98002BB186 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FE741AD52A3DBC96002BB186;
+					};
+					FE741AF02A3DBC98002BB186 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FE741AD52A3DBC96002BB186;
+					};
+				};
+			};
+			buildConfigurationList = FE741AD12A3DBC96002BB186 /* Build configuration list for PBXProject "willow2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE741ACD2A3DBC96002BB186;
+			productRefGroup = FE741AD72A3DBC96002BB186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE741AD52A3DBC96002BB186 /* willow2 */,
+				FE741AE62A3DBC98002BB186 /* willow2Tests */,
+				FE741AF02A3DBC98002BB186 /* willow2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE741AD42A3DBC96002BB186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE741AE22A3DBC97002BB186 /* Preview Assets.xcassets in Resources */,
+				FE8949C12A4139D000E308DE /* .gitignore in Resources */,
+				FE741ADE2A3DBC97002BB186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AE52A3DBC98002BB186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AEF2A3DBC98002BB186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE741AD22A3DBC96002BB186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE741B0B2A3DD01D002BB186 /* ClientMeta.swift in Sources */,
+				FE3F2D052A3E70D2001753C6 /* EventView.swift in Sources */,
+				FE741ADC2A3DBC96002BB186 /* ContentView.swift in Sources */,
+				FE741B092A3DD000002BB186 /* ClientView.swift in Sources */,
+				FE741ADA2A3DBC96002BB186 /* willow2App.swift in Sources */,
+				FE8949C32A41456800E308DE /* Seedable.swift in Sources */,
+				FE741B0D2A3DD046002BB186 /* EventForm.swift in Sources */,
+				FE3F2D032A3E6A76001753C6 /* FormField.swift in Sources */,
+				FE0045D12A401B16008A4C5E /* ClientForm.swift in Sources */,
+				FE0045D32A401BE5008A4C5E /* ClientDeck.swift in Sources */,
+				FE3F2CFF2A3E69AF001753C6 /* Event.swift in Sources */,
+				FEC266AE2A4162020008DB10 /* NetsView.swift in Sources */,
+				FE741B062A3DCFD3002BB186 /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AE32A3DBC98002BB186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE741AEC2A3DBC98002BB186 /* willow2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE741AED2A3DBC98002BB186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE741AF62A3DBC98002BB186 /* willow2UITests.swift in Sources */,
+				FE741AF82A3DBC98002BB186 /* willow2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE741AE92A3DBC98002BB186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE741AD52A3DBC96002BB186 /* willow2 */;
+			targetProxy = FE741AE82A3DBC98002BB186 /* PBXContainerItemProxy */;
+		};
+		FE741AF32A3DBC98002BB186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE741AD52A3DBC96002BB186 /* willow2 */;
+			targetProxy = FE741AF22A3DBC98002BB186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE741AF92A3DBC98002BB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE741AFA2A3DBC98002BB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE741AFC2A3DBC98002BB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = willow2/willow2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"willow2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "willow.willow-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE741AFD2A3DBC98002BB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = willow2/willow2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"willow2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "willow.willow-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE741AFF2A3DBC98002BB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willow2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/willow2";
+			};
+			name = Debug;
+		};
+		FE741B002A3DBC98002BB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willow2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/willow2";
+			};
+			name = Release;
+		};
+		FE741B022A3DBC98002BB186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = willow2;
+			};
+			name = Debug;
+		};
+		FE741B032A3DBC98002BB186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q333G65AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = willow.willow2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = willow2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE741AD12A3DBC96002BB186 /* Build configuration list for PBXProject "willow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE741AF92A3DBC98002BB186 /* Debug */,
+				FE741AFA2A3DBC98002BB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE741AFB2A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE741AFC2A3DBC98002BB186 /* Debug */,
+				FE741AFD2A3DBC98002BB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE741AFE2A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE741AFF2A3DBC98002BB186 /* Debug */,
+				FE741B002A3DBC98002BB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE741B012A3DBC98002BB186 /* Build configuration list for PBXNativeTarget "willow2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE741B022A3DBC98002BB186 /* Debug */,
+				FE741B032A3DBC98002BB186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE741ACE2A3DBC96002BB186 /* Project object */;
+}
